@@ -1,10 +1,15 @@
-import React from 'react';
+import React, { Fragment } from 'react';
+import LoginButton from './components/LoginButton';
+import LogoutButton from './components/LogoutButton';
+
+import './App.css';
 
 const App = () => {
   return (
-    <div>
-      <h1>React Auth App</h1>
-    </div>
+    <Fragment>
+      <LoginButton />
+      <LogoutButton />
+    </Fragment>
   );
 };
 
